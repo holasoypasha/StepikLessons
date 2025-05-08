@@ -10,5 +10,7 @@ public class Main {
         breakDDancer.dance();
         electricDDancer.dance();
 
+        HipHopDancer hipHopDancer = new HipHopDancer("Стас", 27);
+
     }
 }
