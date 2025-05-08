@@ -1,9 +1,20 @@
 package ru.pavlova.stepic.lesson1;
 
 public class Dancer {
+    /**
+     * имя танцора
+     */
     private String name;
+    /**
+     * возраст танцора
+     */
     private int age;
 
+    /**
+     * Конструктор с именем и возрастом
+     * @param name имя
+     * @param age возраст
+     */
     public Dancer(String name, int age){
         this.name = name;
         this.age = age;
