@@ -1,4 +1,4 @@
-package ru.pavlova.stepic.lesson1;
+package ru.pavlova.stepic.lesson1.dance;
 
 public class Main {
     public static void main(String[] args) {

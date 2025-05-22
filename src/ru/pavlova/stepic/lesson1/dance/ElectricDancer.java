@@ -1,4 +1,4 @@
-package ru.pavlova.stepic.lesson1;
+package ru.pavlova.stepic.lesson1.dance;
 
 public class ElectricDancer extends Dancer {
     public ElectricDancer(String name, int age) {
