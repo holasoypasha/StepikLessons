@@ -1,4 +1,4 @@
-package ru.pavlova.stepic.lesson1;
+package ru.pavlova.stepic.lesson1.dance;
 
 /**
  * Реализация денсера для танцев хипхопа
@@ -10,6 +10,5 @@ public class HipHopDancer extends Dancer {
     public HipHopDancer(String name, int age) {
         super(name, age);
     }
-
 
 }
