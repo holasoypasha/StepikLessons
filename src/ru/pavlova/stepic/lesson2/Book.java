@@ -8,7 +8,7 @@ public class Book {
     /**
      * Название книги
      */
-    String name;
+    private String name;
     /**
      * Автор книги
      */
@@ -18,6 +18,10 @@ public class Book {
         this.bookType = type;
         this.name = name;
         this.author = author;
+    }
+
+    public String getName() {
+        return name;
     }
 
     String getType(){
