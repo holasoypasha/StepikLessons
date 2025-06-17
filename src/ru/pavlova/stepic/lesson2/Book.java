@@ -12,9 +12,9 @@ public class Book {
     /**
      * Автор книги
      */
-    String author;
+    private String author;
 
-    Book(String name, String author, Type type){
+    public Book(String name, String author, Type type){
         this.bookType = type;
         this.name = name;
         this.author = author;
@@ -24,7 +24,7 @@ public class Book {
         return name;
     }
 
-    String getType(){
+    public String getType(){
         //С помощью конструкции switch..case можно проверить принадлежность значения bookType определенной константе перечисления.
         switch (bookType) {
             case HORROR: return "Ужастик";
