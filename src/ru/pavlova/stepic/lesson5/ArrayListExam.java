@@ -1,12 +1,13 @@
 package ru.pavlova.stepic.lesson5;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListExam {
     public static void main(String[] args) {
 
         //создание списка людей
-        ArrayList<String> people = new ArrayList<String>();
+        List<String> people = new ArrayList<String>();
 
         // добавим в список ряд элементов
         people.add("Том");

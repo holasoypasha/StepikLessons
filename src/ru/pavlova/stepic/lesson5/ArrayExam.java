@@ -37,8 +37,4 @@ public class ArrayExam {
         String nums5String = Arrays.toString(nums5);
         System.out.println(nums5String);
     }
-
-
-
-
 }

@@ -1,6 +1,7 @@
 package ru.pavlova.stepic.lesson5;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListExam {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class LinkedListExam {
         String str4 = new String("Первый элемент");
         String str5 = new String("Последний элемент");
 
-        LinkedList<String> bio = new LinkedList<>();
+        List<String> bio = new LinkedList<>();
         //добавление элементов в список
         bio.add(str1);
         bio.add(str3);
